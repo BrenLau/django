@@ -28,8 +28,12 @@ def index(request):
 
 @csrf_exempt
 def email(request, email_id):
-    print(Email.objects.get(pk=email_id).email)
-    print('hello')
-    print(request)
+    current = Email.objects.get(pk=email_id)
+    if (current.new):
+        print('is new')
+    current.new = False
+    current.save()
+    print(current.email, current.new)
+
     response = "You are looking at email %s."
     return HttpResponse(response % email_id)
