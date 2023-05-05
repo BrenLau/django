@@ -6,14 +6,14 @@ const CreateEmail = () => {
     const [email, setEmail] = useState('')
     const onSubmit = async (e) => {
         e.preventDefault()
-        axios.post('/emails/api/emails/', { email })
-        // await fetch("/emails/api/emails/", {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        //     body: (email)
-        // })
+        await axios.post('/emails/api/emails/', { email }).then(async (e) => {
+            console.log(e)
+
+        }).then(async (e) => {
+            await axios.put(`/emails/${e.data.id}/`, {
+                email
+            })
+        })
     }
     return (
         <form onSubmit={onSubmit}>
