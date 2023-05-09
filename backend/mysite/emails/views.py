@@ -7,6 +7,8 @@ from .models import Email
 from rest_framework import viewsets
 from rest_framework.decorators import action
 from django.views.decorators.csrf import csrf_exempt
+from django.core.mail import send_mail
+
 
 from .serializers import EmailSerializer
 
@@ -15,10 +17,11 @@ class EmailView(viewsets.ModelViewSet):
     serializer_class = EmailSerializer
     queryset = Email.objects.all()
 
-    # @action(methods=['post'], detail=True)
-    def create(self, request, pk=None):
-        print('hello, create works here')
-        return HttpResponse('Hey man')
+    def create(self, request):
+        print(request.data)
+        email = Email(email=request.data['email'])
+        email.save()
+        return HttpResponse(email)
 
 
 def index(request):
