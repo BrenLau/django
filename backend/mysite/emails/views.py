@@ -15,9 +15,9 @@ class EmailView(viewsets.ModelViewSet):
     serializer_class = EmailSerializer
     queryset = Email.objects.all()
 
-    @action(methods=['post'], detail=True)
-    def sendEmail(self, request, pk=None):
-        print('hello')
+    # @action(methods=['post'], detail=True)
+    def create(self, request, pk=None):
+        print('hello, create works here')
         return HttpResponse('Hey man')
 
 
