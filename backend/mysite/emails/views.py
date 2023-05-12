@@ -21,10 +21,10 @@ class EmailView(viewsets.ModelViewSet):
     queryset = Email.objects.all()
 
     def create(self, request):
-        email = Email(email=request.data['email'])
-        email.save()
-        # send_mail("Sample email", "This is a message",
-        #           "blau4000@gmail.com", ["blau4000@gmail.com"], fail_silently=False)
+        # email = Email(email=request.data['email'])
+        # email.save()
+        send_mail("Sample email1", "This is a message",
+                  "blau4000@gmail.com", ["blau4000@gmail.com"], fail_silently=False)
         return HttpResponse(email)
 
 
