@@ -8,9 +8,12 @@ from rest_framework import viewsets
 from rest_framework.decorators import action
 from django.views.decorators.csrf import csrf_exempt
 from django.core.mail import send_mail
+from django.core import mail
 
 
 from .serializers import EmailSerializer
+
+connection = mail.get_connection
 
 
 class EmailView(viewsets.ModelViewSet):
@@ -18,9 +21,10 @@ class EmailView(viewsets.ModelViewSet):
     queryset = Email.objects.all()
 
     def create(self, request):
-        print(request.data)
         email = Email(email=request.data['email'])
         email.save()
+        # send_mail("Sample email", "This is a message",
+        #           "blau4000@gmail.com", ["blau4000@gmail.com"], fail_silently=False)
         return HttpResponse(email)
 
 
