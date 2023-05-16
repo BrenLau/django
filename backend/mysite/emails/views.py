@@ -23,7 +23,7 @@ class EmailView(viewsets.ModelViewSet):
     def create(self, request):
         email = Email(email=request.data['email'])
         email.save()
-        send_mail("Welcome!", "This is an automated message that is generated because you signed up for emails on AuroraEuroTour.",
+        send_mail("Welcome!", "This is an automated message that is generated because you signed up for emails on ___tourname__)_.",
                   "blau4000@gmail.com", [email.email], fail_silently=False)
         return HttpResponse(email)
 
