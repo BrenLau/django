@@ -33,14 +33,14 @@ def index(request):
     return HttpResponse("Hello, world. You're at the emails index.")
 
 
-@csrf_exempt
-def email(request, email_id):
-    current = Email.objects.get(pk=email_id)
-    if (current.new):
-        print('is new')
-    current.new = False
-    current.save()
-    print(current.email, current.new)
+# @csrf_exempt
+# def email(request, email_id):
+#     current = Email.objects.get(pk=email_id)
+#     if (current.new):
+#         print('is new')
+#     current.new = False
+#     current.save()
+#     print(current.email, current.new)
 
-    response = "You are looking at email %s."
-    return HttpResponse(response % email_id)
+#     response = "You are looking at email %s."
+#     return HttpResponse(response % email_id)
