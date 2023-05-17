@@ -12,6 +12,6 @@ router.register(r'emails', views.EmailView, 'emails')
 
 urlpatterns = [
     # path("api/emails/", views.index, name="index"),
-    path("<int:email_id>/", views.email, name="email"),
+    # path("<int:email_id>/", views.email, name="email"),
     path('api/', include(router.urls)),
 ]
