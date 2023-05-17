@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import CreateEmail from './components/CreateEmail';
+import CreateEmail from './components/CreateEmail/CreateEmail';
 
 function App() {
   return (

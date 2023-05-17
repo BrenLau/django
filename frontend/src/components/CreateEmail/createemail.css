@@ -1,0 +1,20 @@
+#createemailform {
+    /* position: sticky; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    padding: 8px;
+}
+
+#createemaillabel {
+    display: flex;
+    flex-direction: column;
+}
+
+#createemailbutton {
+    width: 60px;
+    height: 25px;
+    align-self: center;
+    margin: 10px;
+}
