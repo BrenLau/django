@@ -6,6 +6,12 @@
   height: 100vh;
 }
 
+.background {
+  position: absolute;
+  z-index: -5;
+  height: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
