@@ -5,6 +5,7 @@
     flex-direction: column;
     /* background-color: aliceblue; */
     padding: 8px;
+    position: fixed;
 }
 
 #createemaillabel {

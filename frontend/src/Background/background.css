@@ -1,0 +1,10 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: -5;
+}
+
+.backgroundimg {
+    height: 100vh;
+}
