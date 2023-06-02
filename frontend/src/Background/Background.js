@@ -12,11 +12,16 @@ const Background = () => {
     console.log(images)
     return (
         <div className="background">
-            {images ? Object.keys(images).map((image) => {
-                return (
-                    <img className='backgroundimg' src={images[image]}></img>
-                )
-            }) : null}
+            <div className='firstlayer'>
+
+                <div className='firstlayer1'>
+                    <img className='pattern1' src={images[`Pattern.png`]}></img>
+                    <img className='pattern1' src={images[`Pattern.png`]}></img>
+                    <img className='pattern1' src={images[`Pattern.png`]}></img>
+                </div>
+
+            </div>
+
 
         </div>
     )
