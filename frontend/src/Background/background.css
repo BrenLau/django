@@ -13,10 +13,35 @@
     min-height: 100vh;
 }
 
+.firstlayer {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .firstlayer1 {
     width: 100%;
+    height: 33.3%;
     display: flex;
     flex-direction: row;
+    /* background-color: blue; */
+}
+
+.firstlayer2 {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+
+.firstlayer3 {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
 }
 
 .pattern1 {
