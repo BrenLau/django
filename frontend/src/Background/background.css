@@ -26,7 +26,13 @@
     display: flex;
     flex-direction: row;
     /* background-color: blue; */
+    background-repeat: repeat-x;
+    /* background-size: contain 300px 300px; */
+    background-size: contain;
+
 }
+
+
 
 .firstlayer2 {
     width: 100%;
@@ -46,5 +52,10 @@
 
 .pattern1 {
     width: 33%;
+    max-width: 500px;
     z-index: -5;
+}
+
+.pattern1-image {
+    height: 100%;
 }

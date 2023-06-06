@@ -14,10 +14,10 @@ const Background = () => {
         <div className="background">
             <div className='firstlayer'>
 
-                <div className='firstlayer1'>
+                <div className='firstlayer1' style={{ backgroundImage: `url(${images[`Pattern.png`]})` }}>
+                    {/* <img className='pattern1' src={images[`Pattern.png`]}></img>
                     <img className='pattern1' src={images[`Pattern.png`]}></img>
-                    <img className='pattern1' src={images[`Pattern.png`]}></img>
-                    <img className='pattern1' src={images[`Pattern.png`]}></img>
+                    <img className='pattern1' src={images[`Pattern.png`]}></img> */}
                 </div>
                 <div className='firstlayer2'></div>
                 <div className='firstlayer3'></div>
