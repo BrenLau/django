@@ -19,8 +19,12 @@ const Background = () => {
                     <img className='pattern1' src={images[`Pattern.png`]}></img>
                     <img className='pattern1' src={images[`Pattern.png`]}></img> */}
                 </div>
-                <div className='firstlayer2'></div>
-                <div className='firstlayer3'></div>
+                {/* <div className='firstlayer2'> */}
+                <img className='portrait' src={images[`Ozuna Portrait.png`]}></img>
+                <img className='afroeurotour' src={images[`Afro Euro Tour - Logo.png`]}></img>
+
+                {/* </div> */}
+                {/* <div className='firstlayer3'></div> */}
 
             </div>
 
