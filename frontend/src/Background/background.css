@@ -7,11 +7,6 @@
 
 }
 
-/* .backgroundimg {
-    height: 100vh;
-    max-height: 100vh;
-    min-height: 100vh;
-} */
 
 .firstlayer {
     display: flex;
@@ -32,48 +27,40 @@
 }
 
 
-
-/* .firstlayer2 {
-    width: 100%;
-    height: 33.3%;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.firstlayer3 {
-    width: 100%;
-    height: 33.3%;
-    display: flex;
-    flex-direction: row;
-} */
-
 .pattern1 {
     width: 33%;
     max-width: 500px;
     z-index: -5;
 }
 
-.pattern1-image {
-    height: 100%;
-}
 
 .portrait {
     position: absolute;
-    width: 873.5px;
-    /* width: 100%; */
+    width: 70%;
     height: auto;
-    /* height: 100%; */
-    max-width: 70%;
+    max-width: 873.5px;
     right: 0px;
-    /* max-height: 66%; */
-    /* background-color: black; */
+
 }
 
 .afroeurotour {
-    position: absolute;
-    width: 1172px;
+    margin-top: 80%;
+    position: relative;
+    width: 50%;
     height: auto;
-    max-width: 50%;
-    bottom: 0;
+    /* max-width: 640px; */
+    max-height: 286px;
+    /* bottom: 0; */
+}
+
+@media screen and (min-width: 1272px) {
+    .afroeurotour {
+        margin-top: 1010px;
+        position: relative;
+        width: 50%;
+        height: auto;
+        /* max-width: 640px; */
+        max-height: 400px;
+        /* bottom: 0; */
+    }
 }
