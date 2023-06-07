@@ -53,14 +53,14 @@
     /* bottom: 0; */
 }
 
-@media screen and (min-width: 1272px) {
+@media screen and (min-width: 1150px) {
     .afroeurotour {
-        margin-top: 850px;
+        margin-top: 990px;
         position: relative;
         width: 60%;
         height: auto;
         /* max-width: 640px; */
-        max-height: 400px;
+        max-height: 350px;
         /* bottom: 0; */
     }
 }
