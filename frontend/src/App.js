@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Background />
-      <CreateEmail></CreateEmail>
+      {/* <CreateEmail></CreateEmail> */}
       <a className='merchLink' href='https://www.ozuna.store/'>Merch</a>
 
     </div>

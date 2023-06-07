@@ -9,7 +9,7 @@ function importAll(r) {
 const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/));
 
 const Background = () => {
-    console.log(images)
+    // console.log(images)
     return (
         <div className="background">
             <div className='firstlayer'>

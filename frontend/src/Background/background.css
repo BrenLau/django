@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     z-index: -5;
-    background-color: #d08c35;
+    background-color: #efb71b;
 
 }
 
@@ -36,7 +36,7 @@
 
 .portrait {
     position: absolute;
-    width: 70%;
+    width: 60%;
     height: auto;
     max-width: 873.5px;
     right: 0px;
@@ -44,9 +44,9 @@
 }
 
 .afroeurotour {
-    margin-top: 80%;
+    margin-top: 68%;
     position: relative;
-    width: 50%;
+    width: 60%;
     height: auto;
     /* max-width: 640px; */
     max-height: 286px;
@@ -55,9 +55,9 @@
 
 @media screen and (min-width: 1272px) {
     .afroeurotour {
-        margin-top: 1010px;
+        margin-top: 850px;
         position: relative;
-        width: 50%;
+        width: 60%;
         height: auto;
         /* max-width: 640px; */
         max-height: 400px;
