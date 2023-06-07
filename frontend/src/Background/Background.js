@@ -15,16 +15,13 @@ const Background = () => {
             <div className='firstlayer'>
 
                 <div className='firstlayer1' style={{ backgroundImage: `url(${images[`Pattern.png`]})` }}>
-                    {/* <img className='pattern1' src={images[`Pattern.png`]}></img>
-                    <img className='pattern1' src={images[`Pattern.png`]}></img>
-                    <img className='pattern1' src={images[`Pattern.png`]}></img> */}
-                </div>
-                {/* <div className='firstlayer2'> */}
-                <img className='portrait' src={images[`Ozuna Portrait.png`]}></img>
-                <img className='afroeurotour' src={images[`Afro Euro Tour - Logo.png`]}></img>
 
-                {/* </div> */}
-                {/* <div className='firstlayer3'></div> */}
+                </div>
+
+                {/* <img className='portrait' src={images[`Ozuna Portrait.png`]}></img> */}
+                {/* <img className='afroeurotour' src={images[`Afro Euro Tour - Logo.png`]}></img> */}
+                <img className='portrait2' src={images[`Combined.png`]}></img>
+
 
             </div>
 
