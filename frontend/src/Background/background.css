@@ -48,9 +48,10 @@
     position: absolute;
     width: 100%;
     height: auto;
-    max-width: 1500.5px;
+    max-width: 1300.5px;
     align-self: center;
     justify-self: center;
+    max-height: 100%;
     /* right: 0px; */
 
 }
