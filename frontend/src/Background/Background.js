@@ -23,6 +23,7 @@ const Background = () => {
                 <img className='portrait2' src={images[`Combined.png`]}></img>
 
 
+                <img className='afrologo' src={images[`Afro Logo.png`]}></img>
             </div>
 
 
