@@ -47,6 +47,8 @@
 .portrait2 {
     position: relative;
     width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: auto;
     max-width: 1600.5px;
     min-height: 691.5px;
@@ -73,6 +75,8 @@
 
 .afrologo {
     z-index: 0;
+    width: 60%;
+    height: auto;
     max-width: 1000px;
     align-self: center;
 }
