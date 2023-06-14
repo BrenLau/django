@@ -4,8 +4,11 @@
     display: flex;
     flex-direction: column;
     /* background-color: aliceblue; */
-    padding: 8px;
-    position: fixed;
+    padding: 12px;
+    background-color: #399ca1;
+    width: 250px;
+    border-radius: 24px;
+    border: #4f2f7c 3px solid;
 }
 
 #createemaillabel {

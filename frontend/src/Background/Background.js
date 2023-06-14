@@ -1,3 +1,4 @@
+import CreateEmail from '../components/CreateEmail/CreateEmail';
 import './background.css'
 
 function importAll(r) {
@@ -22,7 +23,9 @@ const Background = () => {
                 {/* <img className='afroeurotour' src={images[`Afro Euro Tour - Logo.png`]}></img> */}
                 <img className='portrait2' src={images[`Combined2.png`]}></img>
 
-                <div className='spacer'></div>
+                <div className='spacer'>
+                    <CreateEmail></CreateEmail>
+                </div>
                 <img className='afrologo' src={images[`Afro Logo.png`]}></img>
             </div>
 

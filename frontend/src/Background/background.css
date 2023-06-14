@@ -5,6 +5,7 @@
     z-index: -5;
     background-color: #efb71b;
 
+
 }
 
 
@@ -71,6 +72,9 @@
 
 .spacer {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .afrologo {
