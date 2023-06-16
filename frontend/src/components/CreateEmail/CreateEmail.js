@@ -1,4 +1,3 @@
-import { getDefaultNormalizer } from "@testing-library/react"
 import { useState } from "react"
 import axios from 'axios'
 import './createemail.css'
@@ -15,7 +14,7 @@ const CreateEmail = () => {
         <form id="createemailform" onSubmit={onSubmit}>
             <label id="createemaillabel">
                 Enter email to receive notifications
-                <input type="email" value={email} onChange={(e) => {
+                <input className="emailinput" type="email" value={email} onChange={(e) => {
                     setEmail(e.target.value)
                 }} placeholder="Email Address"></input>
             </label>

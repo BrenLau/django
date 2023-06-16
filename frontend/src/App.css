@@ -28,15 +28,18 @@
   top: 10px;
   font-size: 24px;
   text-decoration: none;
-  color: rgb(124, 0, 240);
-  background: rgb(133, 133, 173);
+  color: white;
+  ;
+  background: #399ca1;
   font-weight: bolder;
   border-radius: 24px;
   /* font-family: BEBAS; */
+  border: solid #4f2f7c 3px;
 }
 
 .merchLink:hover {
-  border: solid red 1px;
+  border: solid #a83875 3px;
+
 }
 
 
