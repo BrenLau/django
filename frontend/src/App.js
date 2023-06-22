@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Background />
       {/* <CreateEmail></CreateEmail> */}
-      <a className='merchLink' href='https://www.ozuna.store/'>Merch</a>
+      {/* <a className='merchLink' href='https://www.ozuna.store/'>Merch</a> */}
 
     </div>
   );
