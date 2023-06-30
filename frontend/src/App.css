@@ -15,6 +15,30 @@
   /* align-items: center; */
   height: auto;
 
+
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #d08c35;
+  outline: 1px solid #a12336;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #399ca1;
+  /* outline: 2px solid #a83875; */
+
+  border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  outline: 2px solid #a83875;
+
 }
 
 .merchLink {
