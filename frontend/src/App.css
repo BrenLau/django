@@ -14,7 +14,7 @@
   justify-content: center;
   /* align-items: center; */
   height: auto;
-
+  overflow: auto;
 
 }
 
@@ -32,15 +32,15 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #399ca1;
-  /* outline: 2px solid #a83875; */
-
+  outline: 1px solid #a83875;
+  /* visibility: hidden; */
   border-radius: 12px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
   outline: 2px solid #a83875;
   opacity: 1;
-
+  visibility: visible;
 
 }
 
