@@ -59,6 +59,16 @@
     align-items: center;
 }
 
+.spacer2 {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: calc(100% - 100px);
+    /* background-color: black; */
+}
+
 .afrologo {
     z-index: 0;
     width: 60%;

@@ -1,5 +1,8 @@
 .tourdatesdiv {
-    background-color: blue;
-    height: 50px;
-    width: 50px;
+    background-color: #d08c35;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
 }

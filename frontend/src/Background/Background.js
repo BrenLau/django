@@ -23,7 +23,7 @@ const Background = () => {
                 {/* <img className='portrait' src={images[`Ozuna Portrait.png`]}></img> */}
                 {/* <img className='afroeurotour' src={images[`Afro Euro Tour - Logo.png`]}></img> */}
                 <img className='portrait2' src={images[`Combined2.png`]}></img>
-                <div className='spacer'>
+                <div className='spacer2'>
                     <TourDates />
                 </div>
 
