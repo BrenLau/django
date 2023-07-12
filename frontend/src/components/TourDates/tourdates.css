@@ -3,6 +3,16 @@
     height: 100%;
     padding: 20px;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tourcity {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    /* max-width: 40%; */
+    margin: 20px;
 }
