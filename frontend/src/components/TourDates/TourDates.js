@@ -5,13 +5,13 @@ const TourDates = () => {
     return (
         <div className="tourdatesdiv">
             <div className="tourcity">
-                <div>Tour 1</div>
+                <div className='tourcityname'>Tour 1</div>
             </div>
             <div className="tourcity">
-                <div>Tour 1</div>
+                <div className='tourcityname'>Tour 2</div>
             </div>
             <div className="tourcity">
-                <div>Tour 1</div>
+                <div className='tourcityname'>Tour 3</div>
             </div>
         </div>
     )
