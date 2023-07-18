@@ -13,6 +13,15 @@ const TourDates = () => {
             <div className="tourcity">
                 <div className='tourcityname'>Tour 3</div>
             </div>
+            <div className="tourcity">
+                <div className='tourcityname'>Tour 3</div>
+            </div>
+            <div className="tourcity">
+                <div className='tourcityname'>Tour 3</div>
+            </div>
+            <div className="tourcity">
+                <div className='tourcityname'>Tour 3</div>
+            </div>
         </div>
     )
 }
